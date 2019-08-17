@@ -1,15 +1,18 @@
 <template>
   <div>
-      <h1>Home</h1>
+    <Header></Header>
   </div>
 </template>
 
 <script>
-export default {
+import Header from "../base/Header/Header";
 
-}
+export default {
+  components: {
+    Header
+  }
+};
 </script>
 
 <style>
-
 </style>

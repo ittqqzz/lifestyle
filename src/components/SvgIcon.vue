@@ -16,12 +16,10 @@ export default {
       type: String
     },
     width: {
-      type: String,
-      default: '5vw'
+      type: String
     },
     height: {
-      type: String,
-      default: '5vw'
+      type: String
     }
   },
   data () {
@@ -46,8 +44,6 @@ export default {
 
 <style>
 .svg-icon {
-  width: 5em;
-  height: 5em;
   fill: currentColor;
   overflow: hidden;
 }

@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <svg-icon name="urku-ico" ></svg-icon>
     <router-view/>
   </div>
 </template>
