@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+ id="icon-view-full" viewBox="0 0 18 18">
+        <g fill="currentColor">
+            <path d="M18 8H0V0h18v8zM18 18H0v-8h18v8z"/>
+        </g>
+</svg>

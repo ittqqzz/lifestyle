@@ -24,7 +24,7 @@
       </h1>
       <nav class="rk-navigation">
         <ul class="rk-menu">
-          <li class="active rk-menu__item">
+          <li class="rk-menu__item">
             <a href="index.html" class="rk-menu__link">Home</a>
           </li>
           <li class="rk-menu__item">
@@ -47,7 +47,8 @@
             </nav>
           </li>
           <li class="rk-menu__item">
-            <a href="blog.html" class="rk-menu__link">Blog</a>
+            <!-- <a href="blog.html" class="rk-menu__link">Blog</a> -->
+            <router-link to="/blog">Blog</router-link>
           </li>
           <li class="rk-menu__item">
             <a href="#0" class="rk-menu__link">Pages</a>
