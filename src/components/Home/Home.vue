@@ -1,12 +1,15 @@
 <template>
   <div>
     <Section>
-      <svg-icon slot="layout-icon"
-      name="icon-view-default"></svg-icon>
-      <section slot="service"
-      class="ae-container-fluid ae-container-fluid--inner loading rk-portfolio">
+      <svg-icon slot="layout-icon" name="icon-view-default"></svg-icon>
+      <section
+        slot="service"
+        class="ae-container-fluid ae-container-fluid--inner loading rk-portfolio"
+      >
+      <!-- todo 将静态资源放到 static 目录下，因为 assets 里面的最终会被编译到 static 里面 -->
         <div class="rk-portfolio__items">
           <a
+          style="background-image: url('../../../static/img2/project-1.jpg');"
             href="portfolio-item.html"
             class="rk-item rk-item--flex item-1 rk-size-12 rk-tosize-6 rk-landscape"
           >

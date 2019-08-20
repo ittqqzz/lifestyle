@@ -10,6 +10,7 @@
       <h1 class="rk-logo">
         <router-link to="/">{{logoText}}</router-link>
       </h1>
+      <!-- TODO nav 里面添加coach类似的导航内容，日后有需求在加。目前不需要 -->
       <nav class="rk-navigation">
         <ul class="rk-menu">
           <li class="rk-menu__item" v-for="(item, index) in navItems" :key="index">

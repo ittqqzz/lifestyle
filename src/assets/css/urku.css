@@ -1165,9 +1165,9 @@ body {
   padding-top: 100%;
 }
 
-.item-1 {
+/* .item-1 {
   background-image: url("../img/project-1.jpg");
-}
+} */
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-1 {
     background-position: center left;
