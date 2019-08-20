@@ -8,14 +8,23 @@
           <div class="post-img post-1 rk-landscape-alt rk-tosquare">
             <div class="item-meta">
               <p>
-                <a href="blog-post.html" class="arrow-button">
+                <router-link to="/blog-post" class="arrow-button">
+                   Read More
+                  <span class="arrow-cont">
+                    <!-- <svg>
+                      <use xlink:href="assets/img/symbols.svg#arrow" />
+                    </svg> -->
+                    <svg-icon name="arrow"></svg-icon>
+                  </span>
+                </router-link>
+                <!-- <a href="blog-post.html" class="arrow-button">
                   Read More
                   <span class="arrow-cont">
                     <svg>
                       <use xlink:href="assets/img/symbols.svg#arrow" />
                     </svg>
                   </span>
-                </a>
+                </a> -->
               </p>
             </div>
           </div>

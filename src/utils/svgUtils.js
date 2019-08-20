@@ -1,1 +1,1 @@
-import '@/assets/svg/urku-ico.svg'
+// import '@/assets/svg/urku-ico.svg'
